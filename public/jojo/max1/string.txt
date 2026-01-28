@@ -1,0 +1,5 @@
+apple is red
+Ape is strong
+ant runs fast
+ball is round
+arrow points north

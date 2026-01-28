@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="Wanderlust-logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Travel-Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Wanderlust</div>
+            <ul class="nav-link">
+                <li><a href="#Destinations">Destinations</a></li>
+                <li><a href="#">Traval Tips</a></li>
+                <li><a href="#">Gallary</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contect</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Explore The World</h1>
+            <p>Discover breathtaking destinations and unforgettable experiences</p>
+
+            <a href="#Destinations" class="s-button">Start Exploring</a>
+
+        </div>
+
+
+    </section>
+    <section id="destinations" class="destinations">
+        <div class="section-header">
+            <h2>Popular Destinations</h2>
+            <p>Discover our handpicked selection of amazing places around the globe</p>
+        </div>
+        <div class="cll">
+            <div class="destination-grid">
+                <div class="destination-card1">
+                    <div class="destination-img">
+                        <img src="bali.jpg" alt="Bali">
+                        <div class="destination-tag">ISLAND</div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Bali, Indonesia</h3>
+                        <p>Experience the perfect blend of stunning beaches, lush rice terraces, and vibrant culture.
+                        </p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-grid">
+                <div class="destination-card2">
+                    <div class="destination-img">
+                        <img src="Jagannath-Temple-Puri-–-Complete-Guide-.webp" alt="Bali">
+                        <div class="destination-tag">TEMPLE</div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Puri, Odisha, India</h3>
+                        <p>Experience the divine charm of the Jagannath Temple, where ancient architecture, the grand
+                            Rath Yatra.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-grid">
+                <div class="destination-card3">
+                    <div class="destination-img">
+                        <img src="https://www.holidify.com/images/bgImages/BALI.jpg" alt="Bali">
+                        <div class="destination-tag">ISLAND</div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Bali, Indonesia</h3>
+                        <p>Experience the perfect blend of stunning beaches, lush rice terraces, and vibrant culture.
+                        </p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="newsletter">
+            <div class="newsletter-contect">
+                <h2>Get Travel Inspiration</h2>
+                <p class="pp">Subscribe to our newsletter for exclusive travel tips and destination guides</p>
+                <form class="letter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="travel-tips" class="travel-tips">
+        <div class="section-header">
+            <h2>Travel Tips & Guides</h2>
+            <p>Expert advice to make your travels smoother and more enjoyable</p>
+        </div>
+        <div class="tips-grid">
+            <div class="tips-card">
+                <div class="tips-icon">
+                    <i class="fas fa-suitcase"></i>
+                </div>
+                <h3>Packing Essentials</h3>
+                <p>Learn how to pack efficiently for any type of trip, from weekend getaways to long-term adventures.
+                </p>
+            </div>
+            <div class="tips-card">
+                <div class="tips-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h3>Photography Tips</h3>
+                <p>Capture stunning travel memories with our expert photography advice for travelers of all skill
+                    levels.</p>
+            </div>
+            <div class="tips-card">
+                <div class="tips-icon">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <h3>Budget Travel</h3>
+                <p>Discover how to explore the world without breaking the bank with our money-saving travel strategies.
+                </p>
+            </div>
+            <div class="tips-card">
+                <div class="tips-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3>Food Adventures</h3>
+                <p>Find the best local cuisines and dining experiences to make your culinary journey unforgettable.</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <div class="section-header">
+            <h2>Travel Gallery</h2>
+            <p>Inspiring images from around the world</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="Mountains.jpg" alt="Mountains">
+            </div>
+            <div class="gallery-item">
+                <img src="beach.jpg" alt="Beach">
+            </div>
+            <div class="gallery-item">
+                <img src="city.jpg" alt="City">
+            </div>
+            <div class="gallery-item">
+                <img src="Forest.jpg" alt="Forest">
+            </div>
+            <div class="gallery-item">
+                <img src="Desert.jpg" alt="Desert">
+            </div>
+            <div class="gallery-item">
+                <img src="Lake.jpg" alt="Lake">
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Wanderlust</h2>
+                <p>Wanderlust was born from a passion for exploration and adventure. Our mission is to inspire travelers
+                    around the world to discover new places, experience different cultures, and create unforgettable
+                    memories.</p>
+                <p>Founded by a group of avid travelers in 2023, we share authentic travel stories, practical advice,
+                    and stunning photography to help you plan your next journey.</p>
+                <a href="#" class="s-button">Our Story</a>
+            </div>
+            <div class="about-image">
+                <img src="aboyr.jpg" alt="Traveler">
+            </div>
+
+        </div>
+
+
+    </section>
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p>Have questions or suggestions? We'd love to hear from you!</p>
+
+        </div>
+        <div class="contact-container">
+             <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="s-button">Send Message</button>
+            </form>
+        
+        <div class="contact-info">
+            <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>hello@wanderlust.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+19 931-681-9746</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Adventure St, Traveler's City</p>
+                </div>
+                <div class="v">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Wanderlust</h3>
+                <p>Explore. Dream. Discover.</p>
+            </div>
+             <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#travel-tips">Travel Tips</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="login.php">Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Travel Guides</a></li>
+                    <li><a href="#">Packing Lists</a></li>
+                    <li><a href="#">Travel Insurance</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="footer-botton">
+            <p>&copy; 2025 Wanderlust. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+Connection established
+Error: File not found
+User login successful
+Error: Disk full
+Process completed

@@ -1,0 +1,5 @@
+cat
+catalog
+dog
+category
+cat is sleeping
